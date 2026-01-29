@@ -1,0 +1,112 @@
+/*PC選別*/
+.pc {
+    font-family: "Bebas neue", sans-serif;
+    background: #112752;
+    color: #e9e9ff;
+    transition: none;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    display: grid;
+    place-items: center;
+}
+#loading {
+    transition: all 1s;
+    background-color: #125;
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    display: grid;
+    place-items: center;
+}
+.spinner {
+    width: 200px;
+    height: 200px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.loaded {
+    opacity: 0;
+    visibility: hidden;
+}
+body {
+    background: #112752;
+    background-image: url(images/background/bg-phone.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+h1,h2,h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.section {
+    height: 100vh;
+}
+.white {
+    background: #e9e9ff;
+    color: #112752;
+}
+.icon {
+    width: 100vw;
+    height: 20vh;
+    background-image: url(images/icon.png);
+    background-position: center;
+    background-size: contain;
+    translate: 0 35vh;}
+h1 {
+    width: 100vw;
+    translate: 0 -15vh;
+    font-size: 10vh;
+    text-align: center;
+    color: #112752;
+}
+h2 {
+    font-size: 10vh;
+    text-align: center;
+    padding: 10vw;
+    padding-bottom: 0;
+}
+h3 {
+    font-size: 7.5vh;
+    text-align:center;
+}
+p {
+    padding: 0 5vw 0 5vw;
+    text-align: center;
+    font-size: 5vw;
+    font-family: sans-serif;
+}
+#profile-img{
+    background-image: url(images/profile.png);
+    background-position: center top;
+    background-size: 75vw;
+    height: 75vw;
+}
+a {
+    display: block;
+    font-size: 10vw;
+    color: #E9E9FF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: .5s;
+    text-decoration: none;
+    text-align: center;
+    width: 100vw;
+    padding: 2.5vw;
+}
+a:hover {
+    color: #999;
+}
+footer {
+    background: #333;
+}
