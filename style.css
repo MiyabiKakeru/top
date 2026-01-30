@@ -51,6 +51,10 @@ h1,h2,h3 {
 .section {
     height: 100vh;
 }
+.autoSect {
+    height: auto;
+    padding: 3vw 0 10vw 0;
+}
 .white {
     background: #e9e9ff;
     color: #112752;
