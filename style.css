@@ -1,3 +1,13 @@
+/*追従ヘッダー*/
+header {
+    background: #112752;
+    position: sticky;
+    top: 0;
+    height: 20vw;
+    border-bottom: #E9E9FF;
+    border-bottom-width: 1vw;
+    border-bottom-style: solid;
+}
 #headerImg {
     width: 80vw;
     top: 0;
@@ -148,6 +158,7 @@ footer {
         translate: 0 5vw;
     }
     h2 {
+        padding-top: 5vw;
         font-size: 7.5vw;
     }
     #profile {
@@ -172,5 +183,9 @@ footer {
     }
     a {
         font-size: 5vw;
+    }
+    #profile-senSec p {
+        padding: 6vw;
+        padding-right: 4vw;
     }
 }
