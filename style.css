@@ -1,13 +1,3 @@
-/*追従ヘッダー*/
-header {
-    background: #112752;
-    position: sticky;
-    top: 0;
-    height: 20vw;
-    border-bottom: #E9E9FF;
-    border-bottom-width: 1vw;
-    border-bottom-style: solid;
-}
 #headerImg {
     width: 80vw;
     top: 0;
